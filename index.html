@@ -5,9 +5,11 @@
     <!--Viewport meta tag sets up mobile browsers to read your media queries-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Add Google Fonts here-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
 
     <!--Link your stylesheet here-->
-
+    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,8 +22,8 @@
             <div class="links">
                 <a href="#top">Home</a>
                 <a href="#about">About</a>
-                <a href="#">Plants</a>
-                <a href="#">Contact</a>
+                <a href="#shop">Plants</a>
+                <a href="#contact">Contact</a>
 
             </div>
         </nav>
@@ -40,5 +42,58 @@
         </div>
 
     </section>
+    <section id="shop">
+        <h2>Our Plants</h2>
+        <div class="container"><!--Big div that wraps around little boxes-->
+            <div class="bgimg succulants"></div>
+            <!--empty -will add background image in CSS-->
+            <div class="shoptxt">
+                <div>
+                    <h3>Succulants</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste rem officiis, sequi, quia saepe quam accusamus qui reprehenderit consectetur vitae repellat laborum iure, obcaecati id. Ut explicabo eveniet maiores nemo.</p>
+                    <button>Shop Now!</button>
+                </div>
+            </div>
+            <div class="shoptxt">
+                <div>
+                    <h3>Cacti</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, expedita cupiditate voluptatum eos cum sit libero! Asperiores sit ad error! Eligendi culpa accusamus est repellat facere aspernatur! Nam, quaerat alias.</p>
+                    <button>Shop Now!</button>
+                </div>
+            </div>
+            <div class="bgimg cacti">
+                <!--will add background image in css-->
+            </div>
+            <div class="bgimg tropicals">
+                <!--will add background image in css-->
+            </div>
+            <div class="shopt">
+                <h3>Tropicals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quaerat accusamus rem ipsum ut modi excepturi hic itaque, dolorem inventore velit error a odio magni esse quas nostrum, aspernatur laborum.</p>
+                <button>Shop Now!</button>
+            </div>
+
+        </div><!--closes big div-->
+    </section>
+    <footer id="contact">
+        <h2>Get in Touch</h2>
+        <div class="left">
+            <h3>Find us here:</h3>
+            <address>123 Plant Lane <br>
+            Boomfield Ontario <br>
+        Canada, L2G 0X6</address>
+        <a href="tel:1-613-973-8282">613-978-8282</a>
+        <a href="mailto:info@thewateringcan.co">info@thewateringcan.ca</a>
+        <p>@thewateringcan on the socials</p>
+        </div>
+        <div class="right">
+            <img src="images/shop.jpg" alt="image of shop space inside of the watering can">
+
+        </div>
+        <div class="bottom">
+
+        </div>
+
+    </footer>
 </body>
 </html>
